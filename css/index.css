@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    background-color: aqua;
+}
+
+.small-container {
+    text-align: center;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#create-task>h4 {
+    margin: -1px;
+}
+
+#addTask {
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 600px;
+    height: 35px;
+}
+
+#addTaskBtn {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: black;
+}
+
+#tasksList {
+    margin-top: 15px;
+}
+
+#task {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: none;
+    width: 1200px;
+    height: 60px;
+    background-color: rgb(107, 138, 230);
+}
+
+#taskName {
+    text-align: start;
+    margin-left: 50px;
+}
+
+.fa-trash {
+    color: red;
+}
+.fa-check-circle{
+   color: rgb(8, 99, 0);
+}
+#deleteTaskBtn{
+    margin-top: -40px;
+}
+
+#deleteTaskBtn, #doneTaskBtn {
+    margin-left: 1100px;
+}
